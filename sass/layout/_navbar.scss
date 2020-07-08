@@ -108,6 +108,7 @@
 		cursor: pointer;
 		opacity: 1;
 		transition: opacity .5s ease;
+		text-decoration: none;
 		&:hover {
 			opacity: .5;
 		}
@@ -118,7 +119,7 @@
 			align-items: center;
 			justify-content: flex-start;
 			padding-top: 5px 0;
-			text-decoration: none;
+
 
 			h1 {
 				color: $color-white;
