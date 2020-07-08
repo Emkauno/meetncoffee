@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title>Meet & Coffee</title>
+  </head>
+  <body>
+    <nav class="navbar" id="navbar">
+      <div class="nav__container">
+        <a href="/index.html" class="nav__logo-container">
+            <img src="assets/img/coffee-cup.svg" alt="" />
+            <h1 class="nav__logo-h1">Meet & Coffee</h1>
+          </a>
+
+        <ul class="nav__links">
+          <li class="nav__item"><a href="/index.html#hero">Ubicación</a></li>
+          <li class="nav__item">
+            <a href="/index.html#featured">Próxima charla</a>
+          </li>
+          <li class="nav__item">
+            <a href="/index.html#events">Eventos anteriores</a>
+          </li>
+          <li class="nav__item"><a href="/index.html#footer">Contacto</a></li>
+        </ul>
+        <button class="toggler hamburger hamburger--minus" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+      </div>
+    </nav>
+    <section id="article-1">
+      <div class="container article">
+        <h1 class="article-h1 margin-bot">Simposio VeganDB</h1>
+        <img
+          src="/assets/img/event1full.png"
+          alt=""
+          class="article-img margin-bot"
+        />
+        <p class="article-p">
+          Una mañana, tras un sueño intranquilo, Gregorio Samsa se despertó
+          convertido en un monstruoso insecto.
+        </p>
+        <p class="article-p">
+          Estaba echado de espaldas sobre un duro caparazón y, al alzar la
+          cabeza, vio su vientre convexo y oscuro, surcado por curvadas
+          callosidades, sobre el que casi no se aguantaba la colcha, que estaba
+          a punto de escurrirse hasta el suelo.
+        </p>
+        <p class="article-p">
+          Numerosas patas, penosamente delgadas en comparación con el grosor
+          normal de sus piernas, se agitaban sin concierto.
+        </p>
+        <p class="article-p">
+          ¿Qué me ha ocurrido? No estaba soñando. Su habitación, una habitación
+          normal, aunque muy pequeña, tenía el aspecto habitual.
+        </p>
+
+        <h1 class="article-h1">Gregorio Samsa</h1>
+        <p class="article-p">
+          Una mañana, tras un sueño intranquilo, Gregorio Samsa se despertó
+          convertido en un monstruoso insecto.
+        </p>
+        <p class="article-p">
+          Estaba echado de espaldas sobre un duro caparazón y, al alzar la
+          cabeza, vio su vientre convexo y oscuro, surcado por curvadas
+          callosidades, sobre el que casi no se aguantaba la colcha, que estaba
+          a punto de escurrirse hasta el suelo.
+        </p>
+        <p class="article-p">
+          Numerosas patas, penosamente delgadas en comparación con el grosor
+          normal de sus piernas, se agitaban sin concierto.
+        </p>
+        <p class="article-p">
+          ¿Qué me ha ocurrido? No estaba soñando. Su habitación, una habitación
+          normal, aunque muy pequeña, tenía el aspecto habitual.
+        </p>
+        <p class="article-p">
+          Una mañana, tras un sueño intranquilo, Gregorio Samsa se despertó
+          convertido en un monstruoso insecto.
+        </p>
+        <p class="article-p">
+          Estaba echado de espaldas sobre un duro caparazón y, al alzar la
+          cabeza, vio su vientre convexo y oscuro, surcado por curvadas
+          callosidades, sobre el que casi no se aguantaba la colcha, que estaba
+          a punto de escurrirse hasta el suelo.
+        </p>
+        <p class="article-p">
+          Numerosas patas, penosamente delgadas en comparación con el grosor
+          normal de sus piernas, se agitaban sin concierto.
+        </p>
+        <p class="article-p">
+          ¿Qué me ha ocurrido? No estaba soñando. Su habitación, una habitación
+          normal, aunque muy pequeña, tenía el aspecto habitual.
+        </p>
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="container footer">
+        <div class="footer__holder">
+          <div class="footer__social">
+            <a href="#"><img src="assets/img/github.svg" alt="" /></a>
+            <a href="#"><img src="assets/img/twitter.svg" alt="" /></a>
+            <a href="#"><img src="assets/img/linkedin.svg" alt="" /></a>
+          </div>
+          <div class="footer__h3">
+            Meet & Coffee 2020. Todos los derechos reservados.
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      window.onload = () => {
+        const menuToggle = document.querySelector(".toggler");
+        const menuItems = document.querySelector(".nav__links");
+
+        menuToggle.addEventListener("click", () => {
+          menuToggle.classList.contains("is-active")
+            ? (menuItems.classList.remove("active"),
+              menuToggle.classList.remove("is-active"))
+            : (menuItems.classList.add("active"),
+              menuToggle.classList.add("is-active"));
+        });
+      };
+    </script>
+  </body>
+</html>
