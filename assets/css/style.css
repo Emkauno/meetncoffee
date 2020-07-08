@@ -178,7 +178,7 @@ html {
 
 #header {
   height: 490px;
-  background: linear-gradient(to right, rgba(0, 15, 8, 0.1), rgba(0, 15, 8, 0.2)), url(/assets/img/hero.png);
+  background: linear-gradient(to right, rgba(0, 15, 8, 0.1), rgba(0, 15, 8, 0.2)), url(./assets/img/hero.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center left;
@@ -320,7 +320,7 @@ html {
   height: 350px;
   width: 350px;
   border-radius: 5px;
-  background: url(/assets/img/featured.png);
+  background: url(./assets/img/featured.png);
   background-size: cover; }
   @media (max-width: 450px) {
     .main__featured-img {
